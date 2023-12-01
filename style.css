@@ -93,8 +93,50 @@ button{
     border-right: 5px solid rgb(255, 255, 255);
 }
 
-@media (max-width:415px) {
+
+@media (max-width:1490px) {
     .book{
-        width: 95vw;
+        width: 30vw;
+        height: 70vh;
+    }
+}
+
+@media (max-width:1150px) {
+    .book{
+        width: 40vw;
+        height: 70vh;
+    }
+}
+
+@media (max-width:1000px) {
+    .book{
+        width: 47vw;
+        height: 70vh;
+    }
+}
+
+@media (max-width:800px) {
+    .book{
+        width: 50vw;
+        height: 70vh;
+    }
+}
+
+@media (max-width:650px) {
+    .book{
+        width: 65vw;
+        height: 70vh;
+    }
+}
+@media (max-width:550px) {
+    .book{
+        width: 90vw;
+        height: 70vh;
+    }
+}
+@media (max-width:351px) {
+    .book{
+        width: 99vw;
+        height: 70vh;
     }
 }
