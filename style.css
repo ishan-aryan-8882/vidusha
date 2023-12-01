@@ -73,6 +73,7 @@ button{
     border: 5px solid rgb(255, 255, 255);
     box-sizing: border-box;
     box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.3);
+    /* display: none; */
 }
 
 .bright{
@@ -83,6 +84,9 @@ button{
     background:url(me.jpg) no-repeat center/cover;
 }
 
+.dis{
+    display: block;
+}
 
 .reduceopacity{
     /* opacity: 0; */
@@ -134,9 +138,9 @@ button{
         height: 70vh;
     }
 }
-@media (max-width:351px) {
+@media (max-width:500px) {
     .book{
-        width: 99vw;
+        width: 99.2vw;
         height: 70vh;
     }
 }
